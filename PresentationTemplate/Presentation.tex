@@ -1,0 +1,46 @@
+\documentclass{if-beamer}
+
+% Now list packages here
+% \usepackage{  }
+ 
+
+% Any macros here
+% \newcommand{}{}
+
+% Define title here
+\title{Your title here}
+
+% Define author here
+\author{Your name here}
+
+% Define institution here
+\institute[U. Oklahoma]{University of Oklahoma} 
+
+% Define date of presentation here (or use \today for today's date)
+\date{\today}
+
+% We include the institution logo here
+\logo{\includegraphics[scale=0.015]{fig/ou.png}\hspace{5pt}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                        Slideshow starts here                      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+    % Create the title page
+    \begin{frame}
+        \titlepage
+    \end{frame}
+
+    % Now input intro section
+    \input{Slides/Intro/Intro.tex}
+
+    % Now input middle sections, etc.
+
+
+    % Now input conclusion section
+    \input{Slides/Conclusion/Conclusion.tex}
+
+\end{document} 
